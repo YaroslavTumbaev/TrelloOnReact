@@ -1,0 +1,27 @@
+.userCard {
+    width: 400px;
+    height: 130px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 100px;
+}
+
+.userCardHeader {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.userCardHeader img {
+    margin: 20px;
+}
+
+.TestApi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}

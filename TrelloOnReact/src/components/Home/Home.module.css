@@ -1,0 +1,73 @@
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.desk {
+    width: 300px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.desks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.deskFooter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card p {
+    width: 290px;
+}
+
+.AddDeskMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Diplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addCardInput input {
+    width: 150px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.addCardInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

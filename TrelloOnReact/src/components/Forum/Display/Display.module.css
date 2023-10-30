@@ -1,0 +1,36 @@
+.Display {
+    width: 1000px;
+    height: 550px;
+    border: 10px solid white;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    overflow: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coment {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    overflow-wrap: break-word;
+    padding-left: 10px;
+}
+
+.text {
+    width: 100%;
+    height: fit-content;
+    overflow-wrap: wrap;
+}
+
+.userName {
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}

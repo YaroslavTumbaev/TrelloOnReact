@@ -1,0 +1,9 @@
+.TrelloPlus {
+    width: 400px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}

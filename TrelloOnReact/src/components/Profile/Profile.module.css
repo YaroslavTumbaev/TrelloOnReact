@@ -1,0 +1,41 @@
+.goReg {
+    text-decoration: solid;
+    color: blue;
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+.noReg {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+}
+
+.Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userProfile {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Account {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
